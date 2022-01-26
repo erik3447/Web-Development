@@ -60,14 +60,17 @@ padding: 3% 15%;
 
 /* Title Image */
 .title-image {
-  width: 60%;
   transform: rotate(25deg);
+  position: absolute;
 }
 
 /* Feature section */
 
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-col {
@@ -127,12 +130,10 @@ padding: 3% 15%;
 
 /* Pricing Section */
 #pricing {
-    padding: 3% 3% 3%;
+    padding: 100px;
       text-align: center;
 }
 
 .pricing-col {
   padding: 2%;
-}
-.pricing-card {
 }
