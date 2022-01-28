@@ -28,7 +28,7 @@ p {
 }
 
 .container-fluid {
-padding: 3% 15%;
+padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -62,6 +62,8 @@ padding: 3% 15%;
 .title-image {
   transform: rotate(25deg);
   position: absolute;
+  width: 19%;
+  right: 22%;
 }
 
 /* Feature section */
