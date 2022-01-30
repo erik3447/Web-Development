@@ -66,6 +66,22 @@ padding: 3% 15% 7%;
   right: 22%;
 }
 
+@media (max-width: 1028px) {
+
+#title {
+  text-align: center;
+}
+
+.title-image {
+    position: static;
+    width: 50%;
+    transform: rotate(0deg);
+    margin: 3% 3% 0 0;
+  }
+
+}
+
+
 /* Feature section */
 
 #features {
@@ -138,4 +154,43 @@ padding: 3% 15% 7%;
 
 .pricing-col {
   padding: 2%;
+}
+
+/* Call to Action Section */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 10% 15%
+}
+
+.cta-h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+  padding: 8% 15%;
+  background-color: #fff;
+}
+
+.social-link-f {
+  padding: 3% 2%;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1028px) {
+
+.social-link-f {
+    padding: 3% 8%;
+    font-size: 2.5rem;
+    }
+}
+
+.footer-c-paragraph {
+  font-weight: 500;
 }
